@@ -94,3 +94,27 @@ body {
     margin: 0 10px 0 0;
   }
 }
+/*Tags*/
+.tags {
+  display: inline-flex;
+}
+.tag-size-1 {
+  font-size: 75%;
+  color: $color-dark;
+}
+.tag-size-2{ 
+  font-size: 100%;
+  color: rgb(168, 124, 66);
+}
+.tag-size-3 {
+  font-size: 125%;
+  color: rgb(170, 16, 144)
+}
+.tag-size-4 {
+  font-size: 150%;
+  color: rgb(10, 187, 134);
+}
+.tag-size-5 {
+  font-size: 175%;
+  color: rgb(228, 23, 23);
+}

@@ -1,9 +1,11 @@
-/* global generateTagsList generateAuthors addClickListenersToArticleAuthor generateTitleLinks generateTags addClickListenersToTags generateAuthor*/ // eslint-disable-line no-unused-vars
+/* global addClickListenersTolistleAuthors generateAuthorsList generateListTags generateAuthors addClickListenersToArticleAuthor generateTitleLinks generateTags addClickListenersToTags generateAuthor*/ // eslint-disable-line no-unused-vars
 'use strict';
 
 generateTitleLinks();
 generateTags();
+generateListTags();
 addClickListenersToTags();
 generateAuthor();
 addClickListenersToArticleAuthor();
-//generateTagsList();
+generateAuthorsList ();
+addClickListenersTolistleAuthors();

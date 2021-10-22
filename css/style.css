@@ -104,4 +104,34 @@ body {
   margin: 0 10px 0 0;
 }
 
+/*Tags*/
+.tags {
+  display: inline-flex;
+}
+
+.tag-size-1 {
+  font-size: 75%;
+  color: #444;
+}
+
+.tag-size-2 {
+  font-size: 100%;
+  color: #a87c42;
+}
+
+.tag-size-3 {
+  font-size: 125%;
+  color: #aa1090;
+}
+
+.tag-size-4 {
+  font-size: 150%;
+  color: #0abb86;
+}
+
+.tag-size-5 {
+  font-size: 175%;
+  color: #e41717;
+}
+
 /*# sourceMappingURL=style.css.map */
