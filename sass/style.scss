@@ -95,8 +95,8 @@ body {
   }
 }
 /*Tags*/
-.tags {
-  display: inline-flex;
+.tags li{
+  display: inline-block
 }
 .tag-size-1 {
   font-size: 75%;
