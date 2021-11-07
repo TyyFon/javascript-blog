@@ -147,7 +147,7 @@ function generateListTags() {
   const allTagsData = {tags: []};
   for(let tag in allTags){
     const linkHTMLData = {id: tag, title: tag};
-    const linkHTML = templates.tagCloudLink(linkHTMLData);
+    //const linkHTML = templates.tagCloudLink(linkHTMLData);
     allTagsData.tags.push({
       tag: tag,
       count: allTags[tag],
@@ -177,16 +177,16 @@ function generateAuthorsList () {
   }
   authorList.innerHTML = templates.authorListLink(allAuthorsData);
 }
-function listleAuthorsClickHandler(event) {
+function listAuthorsClickHandler(event) {
   event.preventDefault();
   const clickedElement = this;
   const href = clickedElement.getAttribute('href');
   const author = href.replace('#', '');
   generateTitleLinks('[data-author="' + author + '"]');
 }  
-function addClickListenersTolistleAuthors() {
+function addClickListenersTolistAuthors() {
   const linkAuthors = document.querySelectorAll('.authors a');
   for (let linkAuthor of linkAuthors) {
-    linkAuthor.addEventListener('click', listleAuthorsClickHandler);
+    linkAuthor.addEventListener('click', listAuthorsClickHandler);
   }
 }

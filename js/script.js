@@ -1,4 +1,4 @@
-/* global addClickListenersTolistleAuthors generateAuthorsList generateListTags generateAuthors addClickListenersToArticleAuthor generateTitleLinks generateTags addClickListenersToTags generateAuthor*/ // eslint-disable-line no-unused-vars
+/* global addClickListenersTolistAuthors generateAuthorsList generateListTags generateAuthors addClickListenersToArticleAuthor generateTitleLinks generateTags addClickListenersToTags generateAuthor*/ // eslint-disable-line no-unused-vars
 'use strict';
 
 generateTitleLinks();
@@ -8,4 +8,4 @@ addClickListenersToTags();
 generateAuthor();
 addClickListenersToArticleAuthor();
 generateAuthorsList ();
-addClickListenersTolistleAuthors();
+addClickListenersTolistAuthors();
